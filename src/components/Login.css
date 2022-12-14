@@ -1,0 +1,148 @@
+.login {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_logo {
+    width: 102px;
+    margin-top: 14px;
+    margin-bottom: 14.5px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_container {
+    width: 308px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+
+.login_text_signin {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-left: 6px;
+}
+
+.login_text_email {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 15px;
+    margin-right: 37px;
+}
+
+.login_textbox {
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-right: 36px;
+    border-radius: 3px 3px 3px 3px;
+    width: 286px;
+    height: 30px;
+    font-size: 13px;
+    text-align: margin-left;
+    padding: 0px 0px 0px 8px;
+    outline: none;
+    background-color: rgb(232, 240, 254);
+    border: 1px solid;
+}
+
+.login_textbox:focus {
+    box-shadow: 0px 0px 3px 2px #FD9A15;
+    border-color: #FD9A15;
+}
+
+.create_account {
+    margin-top: 14px;
+    border-radius: 3px;
+    width: 348px;
+    height: 34px;
+    background-color: #e0e0df;
+    font-size: 13px;
+    border: 1px solid;
+}
+
+.login_continue_button {
+
+
+    border-radius: 3px 3px 3px 3px;
+    width: 297px;
+    height: 32px;
+    background-color: #ecb528;
+    font-size: 14px;
+    border-color: #a88734 #9c7e31 #846a29;
+    border: 1px solid;
+}
+
+.xyz {
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 36px;
+}
+
+.login_continue_button:hover {
+    background-color: #dcac34;
+}
+
+.login_text_privacy {
+    margin: auto;
+    margin-left: 6px;
+    margin-top: 16px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.login_corner {
+    width: 8px;
+    margin-top: 16px;
+    height: auto;
+    align-items: center;
+}
+
+.create_side {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.newAccountText {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.create_account:hover {
+    background-color: #cfcfcf;
+}
+
+.bottom_sentence {
+    text-align: center;
+    align-content: space-between;
+    margin-top: 15px;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+.xxx {
+    text-decoration: none;
+    color: rgb(59, 59, 186);
+}
+
+.xxx:hover {
+    color: #c85500;
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+}
